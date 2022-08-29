@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <center>
+    <h1> DeepRoad </h1>
+        <video width="450" height="240" controls>
+            <source src="1.mp4" type="video/mp4">
+        </video>
+        <br>
+        <button align="right"> 인식하기 </button>
+        <div style="width: 450px; height: 100px;">
+            <h2>DB</h2>
+            <div align="left">
+                <p>카운터 : <input type="text" name="counter" style="background-color: white;"></p>
+                <p>번호판 : <input type="text" name="plate" style="background-color: white;"></p>
+                <p>핸드폰 : <input type="text" name="phone" style="background-color: white;"></p>
+            </div>
+            <button onclick="location.href='http://127.0.0.1:5000/setuser'"> 전송 </button>
+
+            <button onclick="location.href='http://127.0.0.1:5000/getuser'"> 보기 </button>
+        </div>
+    </center>
+
+</body>
+</html>
